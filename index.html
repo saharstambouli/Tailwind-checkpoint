@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=, initial-scale=1.0">
+  <title> Travel blog </title>
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.8/dist/full.min.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+
+<body>
+
+  <header>
+
+    <nav class="bg-cyan-600 h-25 w-full	grid sm:grid-cols-1 md:grid-cols-2  ">
+      <div class="w-16  sm:col-span-1">
+        <img src="./logo.png" alt="mon logo">
+
+      </div>
+
+      <div>
+
+        <ul class="flex flex-row gap-2 lg:justify-end p-4 sm:col-span-1 ">
+          <li> <a href="index.html"> <span class="item"> Home </span> </a></li>
+          <li> <a href="#about-me"><span class="item"> About </span> </a> </li>
+          <li> <a href="#Work"><span class="item"> Work </span> </a></li>
+          <li> <a href="#resume"> <span class="item"> Resume </span></a></li>
+          <li> <a href="#Contact"><span class="item">Contact</span> </a> </li>
+        </ul>
+
+      </div>
+
+    </nav>
+
+
+
+    <section class="container-fluid mx-5 my-5 grid md:grid-cols-3 gap-x-3 gap-y-3 sm:grid-cols-1 ">
+
+
+      <div class="card card-compact bg-base-100  shadow-xl col-span-1">
+        <figure>
+          <img src="https://media.routard.com/image/45/0/fb-athenes.1542450.jpg" class="min-h-48" alt="Shoes" />
+        </figure>
+        <div class="card-body">
+          <h2 class="card-title"> Conseils et bons plan</h2>
+          <p> Une semène a Athène que faire ? </p>
+          <div class="card-actions justify-end">
+            <button class="btn btn-primary ">Read more</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="card card-compact bg-base-100 shadow-xl col-span-1">
+        <figure>
+          <img src="https://barcelonesite.fr/images/barcelona_2.jpg" class="min-h-48" alt="Shoes" />
+        </figure>
+        <div class="card-body">
+          <h2 class="card-title">Bon plans et conseils </h2>
+          <p>Un weekend à Barcelone </p>
+          <div class="card-actions justify-end">
+            <button class="btn btn-primary sm:row-span-1">Read more</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="card card-compact bg-base-100  shadow-xl col-span-1">
+        <figure>
+          <img src="https://img.flytrippers.com/wp-content/uploads/2017/08/05215445/phuket08.jpg"
+            alt="Conseils et guide" class="min-h-48" />
+        </figure>
+        <div class="card-body">
+          <h2 class="card-title">Bon plans et Conseils </h2>
+          <p> Un guide complet pour une semaine à Thailande </p>
+          <div class="card-actions justify-end">
+            <button class="btn btn-primary sm:ml-auto">Read more</button>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+
+    <section id="category" class="container-fluid mx-5 my-5 bg-base-300 rounded-box mb-3 mt-5 ml-5">
+
+      <div class="flex-1 px-2 lg:flex-none">
+        <a class="text-lg font-bold">Category</a>
+      </div>
+      <div class="flex flex-1 justify-end px-2">
+        <div class="flex items-stretch">
+          <div class="dropdown dropdown-end">
+            <div tabindex="0" role="button" class="btn btn-ghost rounded-btn">Dropdown</div>
+            <ul tabindex="0" class="menu dropdown-content bg-base-100 rounded-box z-[1] mt-4 w-52 p-2 shadow">
+              <li><a> L'Europe</a></li>
+              <li><a>L'Asie</a></li>
+              <li><a>L'Amerique</a></li>
+              <li><a>Tunisie</a></li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <section id="Recent Posts" class="container-fluid mx-5 my-5 ">
+
+      <h1 class=" text-sky-600 font-bold text-2xl">Recent posts </h1>
+
+      <div class="premier post">
+        <h1 class="mt-4 text-blue-600/100 "> Date of publish : 20/06/2024 </h1>
+
+        <div class="card lg:card-side bg-base-100 shadow-xl">
+          <figure>
+            <img class="w-100 h-100" src="https://static.latribune.fr/full_width/2068492/voyage.jpg" alt="Album" />
+          </figure>
+          <div class="card-body">
+            <h2 class="card-title"> Comment trouver un billet pas cher !</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum deserunt ullam cumque, dicta facilis
+              laboriosam iusto esse deleniti reiciendis corporis dolor quidem dolore eaque totam quaerat impedit
+              officiis sint ratione.</p>
+            <div class="card-actions justify-end">
+              <button class="btn btn-primary"> Read more</button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="deuxieme  post">
+        <h1 class="mt-4 text-blue-600/100 "> Date of publish : 20/05/2024 </h1>
+
+        <div class="card lg:card-side bg-base-100 shadow-xl">
+          <figure>
+            <img class="w-100 h-100" src="https://henoo.fr/blog/wp-content/uploads/2022/05/rue-cremieux-paris.png"
+              alt="Album" />
+          </figure>
+          <div class="card-body">
+            <h2 class="card-title"> Comment trouver ou se loger !</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum deserunt ullam cumque, dicta facilis
+              laboriosam iusto esse deleniti reiciendis corporis dolor quidem dolore eaque totam quaerat impedit
+              officiis sint ratione.</p>
+            <div class="card-actions justify-end">
+              <button class="btn btn-primary"> Read more</button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+
+      <div class="Troisième   post">
+        <h1 class="mt-4 text-blue-600/100 "> Date of publish : 15/05/2024 </h1>
+
+        <div class="card lg:card-side bg-base-100 shadow-xl">
+          <figure>
+            <img class="w-100 h-100"
+              src="https://madagascar-touring.com/wp-content/uploads/2023/04/63046277-45546518.jpg" alt="Album" />
+          </figure>
+          <div class="card-body">
+            <h2 class="card-title"> Les desitinations les moins chers !</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum deserunt ullam cumque, dicta facilis
+              laboriosam iusto esse deleniti reiciendis corporis dolor quidem dolore eaque totam quaerat impedit
+              officiis sint ratione.</p>
+            <div class="card-actions justify-end">
+              <button class="btn btn-primary"> Read more</button>
+            </div>
+          </div>
+        </div>
+
+    </section>
+
+    <section id="Newsletter"  class="container-fluid mx-5 my-5 bg-sky-950 h-40 mt-7 flex flex-row justify-around items-center mt-5 sm:flex flex-col px-3">
+
+      <p class="text-white "> Want to receive notfications about our posts ? Sign up for our newsletter. </p>
+      <div class="flex flex-row justify-end">
+        <input type="email" placeholder="Enter your Email ">
+        <button class="btn btn-active btn-primary">Subscribe</button>
+      </div>
+
+    </section>
+
+
+
+    <footer class=" footer footer-center container-fluid bg-base-300 text-base-content p-4">
+      <aside>
+        <p>Copyright © 2019 - 2024 - Tous droits réservés. Mentions légales</p>
+      </aside>
+    </footer>
+
+
+
+</body>
+
+
+
+
+
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
